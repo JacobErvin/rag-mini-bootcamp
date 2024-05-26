@@ -2,7 +2,7 @@ from __future__ import annotations
 from abc import ABC, abstractmethod
 from bs4 import BeautifulSoup, SoupStrainer
 
-GITHUB_BLOG_POST = "https://lilianweng.github.io/posts/2023-06-23-agent/"
+GITHUB_BLOG_POST = "https://lilianweng.github.io/posts/2023-10-25-adv-attack-llm/"
 ARXIV_RAG_SURVEY_PAPER = "https://arxiv.org/html/2312.10997v5"
 
 class Preprocessor(ABC):

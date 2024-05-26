@@ -9,7 +9,7 @@ class NaiveGenerator:
     self._validate_env_variables()
     # TODO: fill in the system prompt
     self._system_prompt = f"""
-      
+      What's the difference between Naive RAG and Advanced RAG in AI?
       """
       
   def _validate_env_variables(self):
